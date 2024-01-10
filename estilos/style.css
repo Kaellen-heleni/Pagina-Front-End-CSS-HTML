@@ -1,0 +1,114 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin: -10px;
+    display: flex;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .active {
+    background-color: #fc9004;
+  }
+  .dropdown
+  {
+    float: right;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #c47c1e;
+}
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #c47c1e;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 1;
+  }
+  .container-meio {
+    background-color:antiquewhite;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    padding:14px 16px;
+    margin: -10px;
+   height: fit-content;
+   box-sizing: inherit;
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.paragrafo{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+  .imagens{
+    margin: 10px;
+    width: 316px;
+    height: 316px;
+  }
+  .imagem{
+    margin: 10px;
+    width: 316px;
+    height: 316px;
+    opacity: 1;
+  }
+  p{
+    margin-top: -5px;
+    font-family:'Times New Roman', Times, serif
+  }
